@@ -1,38 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title></title>
     <style>
         section div{
             border: 2px solid blue;
             padding: 15px;
             margin-bottom: 10px;
+
+            /* they convert the block level to inline */
             float: left;
-            width: 16%;
+            width: 16.5%;
             box-sizing: border-box;
-            margin-left: 10px;
+            height: 80px;
         }
+
         #id2 div{
             float: left;
             height: 600px;
             width: 49.5%;
         }
-    </style>
 
+        #id3 div{
+            float: left;
+            width: 33.3%;
+            height: 400px;
+        }
+
+    </style>
 </head>
 <body>
     <section>
+        <div style="color: red; font-size: xx-large; font-family: cursive;">Kona</div>
+        <div>Products</div>
+        <div>Solutions</div>
+        <div>Services</div>
+        <div>Pricing</div>
+        <div style="background-color: red; color: white; font-size: x-large;">Try for free</div>
+    </section>
+    <section id="id2">
+        <div>
+            <p>Revolutionizing the</p>
+            <p>way India LEARNS</p>
+            <p>The education system is growing beyond</p>
+            <p>Chalk-and-Talk. The next generation needs</p>
+            <p>advanced methods of learning and we are</p>
+            <p>equipping those who empower the genZ.</p>
+        </div>
+        <div>2</div>
+    </section>
+    <section id="id3">
         <div>1</div>
         <div>2</div>
         <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
     </section>
-    <section id="id2">
-        <div>1</div>
-        <div>2</div>
-    </section>
-    
 </body>
 </html>

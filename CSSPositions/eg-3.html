@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        div:nth-child(1){
+            border: 2px solid red;
+            margin-bottom: 5px;
+            padding: 20px;
+            background-color: gold;
+        }
+        div:nth-child(2){
+            border: 2px solid blue;
+            margin-bottom: 5px;
+            padding: 20px;
+            background-color: crimson;
+            position: relative;
+        }
+        div:nth-child(3){
+            border: 2px solid green;
+            margin-bottom: 5px;
+            padding: 20px;
+            background-color: aqua;
+        }
+        div:nth-child(4){
+            border: 2px solid pink;
+            margin-bottom: 5px;
+            padding: 20px;
+            background-color: seagreen;
+        }
+        .c1{
+            position: absolute;
+            top: 15px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div>one</div>
+    <div>
+        <div class="c1" style="background-color: blueviolet;">1.1</div>
+        <div class="c2">1.2</div>
+        <div class="c3">1.3</div>
+    </div>
+    <div>three</div>
+    <div>four</div>
+</body>
+</html>

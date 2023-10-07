@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box div{
+            border: 2px solid red;
+            margin: 5px;
+            padding: 10px;
+            float: left;
+            width: 24.3%;
+            box-sizing: border-box;
+        }
+
+        .flx, div{
+            border: 2px solid red;
+            margin: 5px;
+            padding: 10px;
+            display: flex;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <section class="box">
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+        <div>four</div>
+    </section>
+
+    <section class="flx">
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+        <div>four</div>
+    </section>
+</body>
+</html>

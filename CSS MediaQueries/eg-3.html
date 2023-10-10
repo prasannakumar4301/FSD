@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            background-color: black;
+        }
+        div{
+            background-color: black;
+        }
+        section, div{
+            margin: 10px;
+            display: flex;
+            flex: 1;
+            padding: 10px;
+        }
+
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+
+        @media only screen and (max-width:800px){
+            section, div{
+                display: block;
+                color: aqua;
+                height: 220px;
+            }
+            img{
+                height: 240px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <img src="C:\Users\Prasanna Kumar\Downloads\wallpaperflare.com_wallpaper (9).jpg" alt="image">
+        </div>
+
+        <div>
+            <img src="C:\Users\Prasanna Kumar\Downloads\wallpaperflare.com_wallpaper (8).jpg" alt="image">
+        </div>
+    </section>
+</body>
+</html>
+
